@@ -140,6 +140,7 @@ static int do_main(int argc, char* argv[], nsIFile *xreDirectory)
   nsCOMPtr<nsIFile> appini;
   nsresult rv;
   uint32_t mainFlags = 0;
+  printf("hello Idriss Ouhssaine \n");
 
   // Allow firefox.exe to launch XULRunner apps via -app <application.ini>
   // Note that -app must be the *first* argument.
